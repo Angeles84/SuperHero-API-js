@@ -1,0 +1,25 @@
+.logo{
+    width: 3rem;
+}
+
+.header_img {
+    width: 35%;
+}
+
+h1 {
+    color: brown;
+}
+
+p {
+    font-size: 0.8rem;
+    margin-bottom: 0.6rem;
+}
+
+hr {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+article {
+    display: none;
+}
