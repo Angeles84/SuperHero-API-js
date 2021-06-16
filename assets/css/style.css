@@ -23,3 +23,7 @@ hr {
 article {
     display: none;
 }
+
+#img_hero {
+    width: 100%;
+}
