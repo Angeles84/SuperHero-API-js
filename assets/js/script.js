@@ -69,10 +69,13 @@ $("#boton").click(function () {
 
     const validacionDelInput = /\d/gim;                 //sólo para números
     if(validacionDelInput.test(valorInput) == true) {  
-        $("input").val("")
+        $("input").val("");
+        $("h4").text("SuperHero Encontrado");
     } else {
-        alert("Sólo debes ingresar números")
-    } return false 
+        $("input").val("");
+        alert("Sólo debes ingresar números");
+        $("h4").html("SuperHero No encontrado...");
+    }  
 });
 
 const renderChart = (dataPoints , nombreDelHero) => {
